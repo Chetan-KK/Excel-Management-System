@@ -16,6 +16,9 @@ const Dashboard = () => {
         src={url}
         style={{
           colorScheme: "dark",
+          height: "100%",
+          width: "100%",
+          borderRadius: "20px",
         }}
         title="YouTube video player"
         allow="autoplay"
