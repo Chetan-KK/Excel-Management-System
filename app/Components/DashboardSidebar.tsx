@@ -23,18 +23,27 @@ const DashboardSidebar = () => {
 
   const sidebarLinks = [
     {
-      name: "All sheets",
+      link: "/dashboard/sheet-1",
+      name: "Sheet 1",
       icon: FileSpreadsheet,
-      // link: "#allSheets",
+    },
+    {
+      link: "/dashboard/sheet-2",
+      name: "Sheet 2",
+      icon: FileSpreadsheet,
+    },
+    {
+      link: "/dashboard/sheet-3",
+      name: "Sheet 3",
+      icon: FileSpreadsheet,
+    },
+    {
+      name: "Other Options",
+      icon: FileSpreadsheet,
       options: [
         {
-          link: "/dashboard/sheet-1",
-          name: "Sheet 1",
-          icon: FileSpreadsheet,
-        },
-        {
-          link: "/dashboard/sheet-2",
-          name: "Sheet 2",
+          name: "extra",
+          link: "/dashboard/",
           icon: FileSpreadsheet,
         },
       ],

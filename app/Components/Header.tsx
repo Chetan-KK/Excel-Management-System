@@ -18,9 +18,11 @@ const Header = (props: props) => {
             <Link href={"/"} className="flex items-center gap-2">
               <Image priority className="h-10 w-auto" src={logo} alt="logo" />
               <div className="hidden sm:block">
-                <p className="whitespace-nowrap">NextJS Dashboard layout</p>
+                <p className="whitespace-nowrap">
+                  Ajeenkya D Y Patil University
+                </p>
                 <p className="text-xs whitespace-nowrap">
-                  Next js dashboard layout with shadcn ui
+                  Management information system
                 </p>
               </div>
             </Link>

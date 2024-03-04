@@ -4,8 +4,7 @@ import DashboardLayout from "../DashboadLayout";
 import { useToast } from "@/components/ui/use-toast";
 
 const Dashboard = () => {
-  const url =
-    "https://docs.google.com/spreadsheets/d/1r1IR5EmzffhfCrthiPyeJi5ynihmSYKa128GoQW9_fk/edit?usp=sharing";
+  const url = process.env.SHEET_ONE_URL;
   return (
     <DashboardLayout>
       <iframe
